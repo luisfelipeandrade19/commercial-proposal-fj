@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Template from "../screens/template";
 
-function RoutesApp (){
+function RoutesApp() {
 
-    return(
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Navigate to="/avulsos" replace />} />
-            <Route path="/avulsos" element={<Template tipo='avulsos'/>} />
-            <Route path="/pacotes" element={<Template tipo='pacotes'/>} />
-          </Routes>
-        </BrowserRouter>
-    )
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Template tipo='avulsos'/>} />
+        <Route path="/avulsos" element={<Template tipo='avulsos' />} />
+        <Route path="/pacotes" element={<Template tipo='pacotes' />} />
+      </Routes>
+    </BrowserRouter>
+  )
 
 }
 

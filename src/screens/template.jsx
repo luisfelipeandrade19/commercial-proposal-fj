@@ -1,7 +1,12 @@
-function Template({ tipo }){
+import InitialHomeAvulso from "../lib/home/avulsos/initialHomeAvulso"
+import InitialHomePackege from "../lib/home/packages/initialHomePackage"
+function Template({ tipo }) {
 
-    return(
+    return (
         <>
+            <section id="home-section" className="w-full h-full">
+                {tipo === 'avulsos' ? <InitialHomeAvulso /> : <InitialHomePackege />}
+            </section>
         </>
     )
 }
