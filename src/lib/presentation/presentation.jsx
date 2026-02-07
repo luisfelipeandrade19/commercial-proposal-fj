@@ -14,7 +14,7 @@ function Presentation() {
             <div id='content-presentation' className="flex z-10 w-full">
                 <aside id='left' className="relative flex-1">
                     <SlideInLeft>
-                        <h1 className="relative text-black font-kanit text-[80px] leading-[0.9] font-extralight pl-25 pt-45">
+                        <h1 className="relative text-black font-kanit text-[80px] leading-[0.9] font-extralight pl-25 pt-15">
                             Prazer,
                         </h1>
                     </SlideInLeft>
@@ -56,7 +56,7 @@ function Presentation() {
                         </p>
                     </SlideInLeft>
                 </aside>
-                <aside id="right" className="relative pr-20 pt-50">
+                <aside id="right" className="relative pr-20 pt-20">
                     <EnterAnimation>
                         <img src={felipe} alt="Foto de Felipe Jorge" className="w-135 rounded-[100px]" />
                     </EnterAnimation>
