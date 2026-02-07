@@ -8,7 +8,9 @@ export default function EnterAnimation({ children, className }) {
             viewport={{ once: true }}
             transition={{
                 duration: 0.4,
-                scale: { type: "spring", visualDuration: 0.4, bounce: 0.6 },
+                scale: { type: "spring", 
+                visualDuration: 0.4, 
+                bounce: 0.4 },
             }}
             className={className}
         >
