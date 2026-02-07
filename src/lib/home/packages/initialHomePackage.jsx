@@ -1,5 +1,5 @@
-import fundoBlue from '/src/assets/blue fundo.png';
-import fundoGrade from "/src/assets/grade.png"
+import fundoBlue from '../../../assets/blue-fundo.png';
+import fundoGrade from "../../../assets/grade.png"
 
 function InitialHomePackage() {
 
