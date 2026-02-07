@@ -12,7 +12,7 @@ function Template({ tipo }) {
             <section id="presentation-section" className="relative w-full min-h-screen overflow-hidden ">
                 <Presentation />
             </section>
-            <section id="services-section" className="relative w-full min-h-screen flex flex-col" >
+            <section id="services-section" className="relative w-full min-h-screen flex flex-col overflow-hidden" >
                 <Services />
             </section>
 
