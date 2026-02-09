@@ -1,10 +1,10 @@
 import * as motion from "motion/react-client"
 
-export default function SlideInLeft({ children, className, delay = 0 }) {
+export default function SlideInBottom({ children, className, delay = 0 }) {
     return (
         <motion.div
-            initial={{ opacity: 0, x: -50, filter: "blur(10px)" }}
-            whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
+            initial={{ opacity: 0, y: 150, filter: "blur(50px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{
                 duration: 0.9,
