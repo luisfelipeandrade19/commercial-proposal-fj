@@ -13,7 +13,7 @@ function Presentation() {
 
             <div id='content-presentation' className="flex z-10 w-full">
                 <aside id='left' className="relative flex-1">
-                    <SlideInLeft>
+                    <SlideInLeft delay={0.2}>
                         <h1 className="relative text-black font-kanit text-[80px] leading-[0.9] font-extralight pl-25 pt-20">
                             Prazer,
                         </h1>
