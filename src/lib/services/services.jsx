@@ -31,10 +31,10 @@ function Services() {
                 </header>
 
                 <div id="services" className='relative z-10 text-center pt-20 flex justify-center gap-15'>
-                    <SlideInLeft delay={0.5}>
+                    <SlideInLeft delay={0.8}>
                         <div className='pt-10'>
                             <RotatingBorderCard className="w-105 h-105 text-center p-[2.2%]">
-                                <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[60px] flex flex-col items-center '>
+                                <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[50px] flex flex-col items-center '>
                                     <h3 className='text-white font-kanit font-extralight text-[35px] tracking-tight p-7'>Planejamento</h3>
                                     <hr className='w-90 h-1 bg-black' />
                                     <p className='text-white font-kanit font-extralight tracking-tight p-9 text-[23px]'>Primeiro passo que vamos dar é de planejar sobre os assuntos dos trabalhos que vão
@@ -47,7 +47,7 @@ function Services() {
 
                     <EnterAnimation>
                         <RotatingBorderCard className="w-105 h-105 text-center p-[2.2%]">
-                            <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[60px] flex flex-col items-center'>
+                            <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[50px] flex flex-col items-center'>
                                 <h3 className='text-white font-kanit font-extralight text-[35px] tracking-tight p-6'>Produção</h3>
                                 <hr className='w-90 h-1 bg-black' />
                                 <p className='text-white font-kanit font-extralight tracking-tight p-6 text-[23px]'>Nessa segunda fase, é comigo! Vou produzir os trabalhos de acordo com o
@@ -56,10 +56,10 @@ function Services() {
                         </RotatingBorderCard>
                     </EnterAnimation>
 
-                    <SlideInRight delay={0.5}>
+                    <SlideInRight delay={0.8}>
                         <div className='pt-10'>
                             <RotatingBorderCard className="w-105 h-105 text-center p-[2.2%]">
-                                <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[60px] flex flex-col items-center'>
+                                <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[50px] flex flex-col items-center'>
                                     <h3 className='text-white font-kanit font-extralight text-[35px] tracking-tight p-7'>Aprovação</h3>
                                     <hr className='w-90 h-1 bg-black' />
                                     <p className='text-white font-kanit font-extralight tracking-tight p-9 text-[23px]'>Após eu fazer os trabalhos, entregarei eles para revisão e serem aprovados pelo cliente.

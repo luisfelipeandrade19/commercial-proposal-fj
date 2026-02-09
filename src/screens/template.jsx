@@ -1,5 +1,6 @@
 import InitialHomeAvulso from "../lib/home/avulsos/initialHomeAvulso"
 import InitialHomePackege from "../lib/home/packages/initialHomePackage"
+import Instagram from "../lib/instagram/instagram"
 import Presentation from "../lib/presentation/presentation"
 import Services from "../lib/services/services"
 function Template({ tipo }) {
@@ -14,6 +15,9 @@ function Template({ tipo }) {
             </section>
             <section id="services-section" className="relative w-full min-h-screen flex flex-col overflow-hidden" >
                 <Services />
+            </section>
+            <section id="instagram-section" className="relative w-full min-h-screen overflow-hidden">
+                <Instagram />
             </section>
 
         </>

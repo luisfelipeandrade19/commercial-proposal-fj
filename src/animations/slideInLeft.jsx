@@ -7,7 +7,7 @@ export default function SlideInLeft({ children, className, delay = 0 }) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{
-                duration: 0.5,
+                duration: 0.9,
                 delay: delay,
                 type: "spring",
                 bounce: 0.3

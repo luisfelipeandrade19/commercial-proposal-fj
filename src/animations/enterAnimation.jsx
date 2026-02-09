@@ -7,10 +7,12 @@ export default function EnterAnimation({ children, className }) {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{
-                duration: 0.4,
-                scale: { type: "spring", 
-                visualDuration: 0.4, 
-                bounce: 0.4 },
+                duration: 0.9,
+                scale: {
+                    type: "spring",
+                    visualDuration: 0.7,
+                    bounce: 0.4
+                },
             }}
             className={className}
         >
