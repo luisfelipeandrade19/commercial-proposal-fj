@@ -1,6 +1,7 @@
 import InitialHomeAvulso from "../lib/home/avulsos/initialHomeAvulso"
 import InitialHomePackege from "../lib/home/packages/initialHomePackage"
 import Instagram from "../lib/instagram/instagram"
+import Aesthetics from "../lib/portfolio/aesthetics/aesthetics"
 import PortiofolioHome from "../lib/portfolio/home/portifolioHome"
 import Presentation from "../lib/presentation/presentation"
 import Services from "../lib/services/services"
@@ -22,7 +23,11 @@ function Template({ tipo }) {
             </section>
 
             <section id="portifolio-home-section" className="relative w-full min-h-screen overflow-hidden">
-                <PortiofolioHome/>
+                <PortiofolioHome />
+            </section>
+
+            <section id="portifolio-1" className="relative w-full min-h-screen overflow-hidden">
+                <Aesthetics/>
             </section>
         </>
     )

@@ -31,7 +31,7 @@ function Services() {
                 </header>
 
                 <div id="services" className='relative z-10 text-center pt-20 flex justify-center gap-15'>
-                    <SlideInLeft delay={0.8}>
+                    <SlideInLeft delay={0.5}>
                         <div className='pt-10'>
                             <RotatingBorderCard className="w-105 h-105 text-center p-[2.2%]">
                                 <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[50px] flex flex-col items-center '>
@@ -56,7 +56,7 @@ function Services() {
                         </RotatingBorderCard>
                     </EnterAnimation>
 
-                    <SlideInRight delay={0.8}>
+                    <SlideInRight delay={0.5}>
                         <div className='pt-10'>
                             <RotatingBorderCard className="w-105 h-105 text-center p-[2.2%]">
                                 <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[50px] flex flex-col items-center'>
