@@ -31,7 +31,7 @@ function Aesthetics() {
                         </SlideInLeft>
 
                         <SlideInLeft delay={0.6}>
-                            <div className="border-[1.15px] rounded-[50px] border-[#464646] p-2 text-center w-50">
+                            <div className="border-[1.15px] rounded-[50px] border-[#464646] p-2 text-center w-auto max-w-50">
                                 <p className=" font-kanit font-medium tracking-[0.3em] text-[#C39670] text-[25px]">ESTÉTICA</p>
                             </div>
                         </SlideInLeft>

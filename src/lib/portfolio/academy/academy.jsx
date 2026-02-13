@@ -32,7 +32,7 @@ function Academy() {
                         </SlideInLeft>
 
                         <SlideInLeft delay={0.6}>
-                            <div className="border-[1.15px] rounded-[50px] border-[#464646] p-2 text-center w-50">
+                            <div className="border-[1.15px] rounded-[50px] border-[#464646] p-2 text-center w-auto max-w-50">
                                 <p className=" font-kanit font-medium tracking-[0.3em] text-[#C39670] text-[25px]">ACADEMIA</p>
                             </div>
                         </SlideInLeft>
@@ -41,27 +41,27 @@ function Academy() {
                     </aside>
                     <aside id="right " className="columns-3 pt-2 pr-7">
                         <SlideInBottom delay={0.2}>
-                            <img src={two} alt="Post 1 estetica" className="pt-5 h-110 w-auto   " />
+                            <img src={two} alt="Post 1 Academia" className="pt-5 h-110 w-auto" />
                         </SlideInBottom>
 
                         <SlideInBottom delay={0.5}>
-                            <img src={tree} alt="Post 1 estetica" className="pt-5 h-110 w-auto" />
+                            <img src={tree} alt="Post 2 Academia" className="pt-5 h-110 w-auto" />
                         </SlideInBottom>
 
                         <SlideInBottom delay={0.3}>
-                            <img src={one} alt="Post 1 estetica" className="pt-5 h-110 w-auto" />
+                            <img src={one} alt="Post 3 Academia" className="pt-5 h-110 w-auto" />
                         </SlideInBottom>
 
                         <SlideInBottom delay={0.6}>
-                            <img src={five} alt="Post 1 estetica" className="pt-5 h-110 w-auto" />
+                            <img src={five} alt="Post 4 Academia" className="pt-5 h-110 w-auto" />
                         </SlideInBottom>
 
                         <SlideInBottom delay={0.4}>
-                            <img src={four} alt="Post 1 estetica" className="pt-5 h-110 w-auto" />
+                            <img src={four} alt="Post 5 Academia" className="pt-5 h-110 w-auto" />
                         </SlideInBottom>
 
                         <SlideInBottom delay={0.7}>
-                            <img src={six} alt="Post 1 estetica" className="pt-5 h-110 w-auto" />
+                            <img src={six} alt="Post 6 Academia" className="pt-5 h-110 w-auto" />
                         </SlideInBottom>
 
                     </aside>

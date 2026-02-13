@@ -3,6 +3,7 @@ import InitialHomePackege from "../lib/home/packages/initialHomePackage"
 import Instagram from "../lib/instagram/instagram"
 import Academy from "../lib/portfolio/academy/academy"
 import Aesthetics from "../lib/portfolio/aesthetics/aesthetics"
+import Drink from "../lib/portfolio/drink/drink"
 import PortiofolioHome from "../lib/portfolio/home/portifolioHome"
 import Presentation from "../lib/presentation/presentation"
 import Services from "../lib/services/services"
@@ -33,6 +34,10 @@ function Template({ tipo }) {
 
             <section id="portifolio-2" className="relative w-full min-h-screen overflow-hidden">
                 <Academy />
+            </section>
+
+            <section id="portifolio-3" className="relative w-full min-h-screen overflow-hidden">
+                <Drink />
             </section>
         </>
     )
