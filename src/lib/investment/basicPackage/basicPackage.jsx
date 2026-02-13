@@ -37,8 +37,8 @@ function BasicPackage() {
                     <SlideInLeft delay={0.2}>
                         <div id='tittle' className='pl-45 pt-19 flex items-center'>
                             <img className='h-5 w-5 ' src={triangulo} alt="Triangulo" />
-                            <h1 className='relative  text-black font-kanit text-[80px]  font-semibold 
-                        tracking-tight bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent'>
+                            <h1 className='relative  text-black font-kanit text-[80px] pl-5  font-semibold 
+                            tracking-tight bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent'>
                                 Pacotes</h1>
                         </div>
                     </SlideInLeft>
@@ -80,8 +80,8 @@ function BasicPackage() {
 
                     <SlideInLeft delay={0.9} >
                         <p className='font-kanit font-light text-[26px] pl-45 pt-8'> <span className='text-mid-blue'>
-                            Obs:</span> Caso queira mais posts em formato carrossel, me <br /> informe para que eu possa
-                            reformular o orçamento.</p>
+                            Obs:</span> Caso queira mais posts em formato carrossel, me
+                            informe para que eu possa reformular o orçamento.</p>
                     </SlideInLeft>
 
                 </div>
