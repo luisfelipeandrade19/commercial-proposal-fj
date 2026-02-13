@@ -4,6 +4,7 @@ import Instagram from "../lib/instagram/instagram"
 import BasicPackage from "../lib/investment/basicPackage/basicPackage"
 import HomeInvestiment from "../lib/investment/homeInvestiment/homeInvestment"
 import Payment from "../lib/investment/payment/payment"
+import MoreService from "../lib/moreService/moreService"
 import Academy from "../lib/portfolio/academy/academy"
 import Aesthetics from "../lib/portfolio/aesthetics/aesthetics"
 import Drink from "../lib/portfolio/drink/drink"
@@ -56,6 +57,10 @@ function Template({ tipo }) {
 
             <section id="payment-section" className="relative w-full min-h-screen overflow-hidden">
                 <Payment/>
+            </section>
+
+            <section id="more-service-section" className="relative w-full min-h-screen overflow-hidden">
+                <MoreService/>
             </section>
 
 
