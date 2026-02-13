@@ -1,6 +1,8 @@
 import InitialHomeAvulso from "../lib/home/avulsos/initialHomeAvulso"
 import InitialHomePackege from "../lib/home/packages/initialHomePackage"
 import Instagram from "../lib/instagram/instagram"
+import BasicPackage from "../lib/investment/basicPackage/basicPackage"
+import HomeInvestiment from "../lib/investment/homeInvestiment/homeInvestment"
 import Academy from "../lib/portfolio/academy/academy"
 import Aesthetics from "../lib/portfolio/aesthetics/aesthetics"
 import Drink from "../lib/portfolio/drink/drink"
@@ -39,6 +41,22 @@ function Template({ tipo }) {
             <section id="portifolio-3" className="relative w-full min-h-screen overflow-hidden">
                 <Drink />
             </section>
+
+            <section id="portifolio-home-section" className="relative w-full min-h-screen overflow-hidden">
+                <HomeInvestiment />
+            </section>
+
+            {tipo === 'avulsos' ?
+                <section id="portifolio-3" className="relative w-full min-h-screen overflow-hidden">
+                    <BasicPackage />
+                </section> :
+
+                <InitialHomePackege />}
+
+
+
+
+
         </>
     )
 }
