@@ -31,26 +31,26 @@ function Presentation() {
                             online e ajudaram empresas e profissionais a se posicionarem com estratégia e consistência..
                         </p>
                     </SlideInLeft>
-                    <SlideInLeft delay={0.6}>
+                    <SlideInLeft delay={0.5}>
                         <p className="relative text-black font-kanit font-extralight text-[30px] pl-25  pb-10 w-315 text-base/8">
                             Atuei também em uma das maiores agências da minha cidade, a Diamond, onde tive contato com
                             projetos de alto volume e alto padrão, refinando ainda mais meu olhar criativo e minha
                             capacidade de entregar resultados sólidos.
                         </p>
                     </SlideInLeft>
-                    <SlideInLeft delay={0.8}>
+                    <SlideInLeft delay={0.6}>
                         <p className="relative text-black font-kanit font-extralight text-[30px] pl-25  pb-10 w-315 text-base/8">
                             Tenho 2 anos de experiência no setor político, contribuindo para campanhas e comunicação
                             institucional, incluindo uma vitória em campanha para prefeito, fruto de um trabalho
                             estratégico, claro e direcionado ao público
                         </p>
                     </SlideInLeft>
-                    <SlideInLeft delay={1}>
+                    <SlideInLeft delay={0.7}>
                         <p className="relative text-dark-blue font-kanit font-bold text-[30px] pl-25 w-315 text-base/8">
                             Hoje, meu foco é transformar ideias em visuais
                         </p>
                     </SlideInLeft>
-                    <SlideInLeft delay={1.2}>
+                    <SlideInLeft delay={0.8}>
                         <p className="relative text-mid-blue font-kanit font-bold text-[30px] pl-25 w-315 text-base/8">
                             que conectam, engajam e geram impacto real.
                         </p>
