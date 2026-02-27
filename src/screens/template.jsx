@@ -1,3 +1,4 @@
+import { section } from "framer-motion/client"
 import InitialHomeAvulso from "../lib/home/avulsos/initialHomeAvulso"
 import InitialHomePackege from "../lib/home/packages/initialHomePackage"
 import Instagram from "../lib/instagram/instagram"
@@ -11,6 +12,7 @@ import Drink from "../lib/portfolio/drink/drink"
 import PortiofolioHome from "../lib/portfolio/home/portifolioHome"
 import Presentation from "../lib/presentation/presentation"
 import Services from "../lib/services/services"
+import IndividualPackage from "../lib/investment/packages/individualPackage"
 function Template({ tipo }) {
 
     return (
@@ -49,10 +51,13 @@ function Template({ tipo }) {
             </section>
 
             {tipo === 'avulsos' ?
-                <section id="portifolio-3" className="relative w-full min-h-screen overflow-hidden">
+                <section id="basic-package" className="relative w-full min-h-screen overflow-hidden">
                     <BasicPackage />
                 </section> :
-                <InitialHomePackege />}
+                <section id="packages" className="relative w-full min-h-screen overflow-hidden">
+                    <IndividualPackage />
+                </section>
+            }
 
 
             <section id="payment-section" className="relative w-full min-h-screen overflow-hidden">

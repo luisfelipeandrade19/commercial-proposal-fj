@@ -10,7 +10,7 @@ function BasicPackage() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const url = "https://opensheet.elk.sh/1_r21VCtPgOCeudcsY1PqKANn1Kgg_BiFx8hWXUVYu30/Página1!A3:Z";
+        const url = "https://opensheet.elk.sh/1_r21VCtPgOCeudcsY1PqKANn1Kgg_BiFx8hWXUVYu30/Avulsos!A3:Z";
 
         fetch(url)
             .then((res) => res.json())
