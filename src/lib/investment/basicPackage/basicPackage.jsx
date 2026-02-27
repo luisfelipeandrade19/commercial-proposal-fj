@@ -80,7 +80,7 @@ function BasicPackage() {
 
                     <SlideInLeft delay={0.9} >
                         <p className='font-kanit font-light text-[26px] pl-45 pt-8'> <span className='text-mid-blue'>
-                            Obs:</span> Caso queira mais posts em formato carrossel, me
+                            Obs:</span> Caso queira mais posts em formato carrossel, me <br />
                             informe para que eu possa reformular o orçamento.</p>
                     </SlideInLeft>
 
