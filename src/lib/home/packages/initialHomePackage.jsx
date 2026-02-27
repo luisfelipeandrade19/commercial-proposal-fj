@@ -1,5 +1,8 @@
 import fundoBlue from '../../../assets/blue-fundo.png';
 import fundoGrade from "../../../assets/grade.png"
+import Felipe from "../../../assets/felipe.jpeg"
+import Selo from "../../../assets/Vector.svg"
+
 
 function InitialHomePackage() {
 
@@ -18,12 +21,12 @@ function InitialHomePackage() {
                 </div>
 
                 <div id='profile' className="relative z-100 flex gap-4 items-center">
-                    <img src="src/assets/felipe.jpeg" alt="Foto Felipe" className="h-18 w-18 rounded-[100%] object-cover 
+                    <img src={Felipe} alt="Foto Felipe" className="h-18 w-18 rounded-[100%] object-cover 
                     object-[center_20%] border-1 border-mid-blue" />
                     <div className='flex-row'>
                         <h2 className="font-space text-white text-[22.76px] font-medium">Felipe Jorge Designer</h2>
                         <h3 className="text-[#A7A7A7] text-[17.65px] font-light flex gap-2" >@felipejorge.designer
-                            <img src="src/assets/Vector.svg" alt="Selo de verificacao" />
+                            <img src={Selo} alt="Selo de verificacao" />
                         </h3>
                     </div>
                 </div>
