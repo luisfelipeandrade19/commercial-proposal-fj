@@ -13,6 +13,8 @@ import PortiofolioHome from "../lib/portfolio/home/portifolioHome"
 import Presentation from "../lib/presentation/presentation"
 import Services from "../lib/services/services"
 import IndividualPackage from "../lib/investment/packages/individualPackage"
+import PremiumPackage from "../lib/investment/packages/premiumPackage"
+import ProPackage from "../lib/investment/packages/proPackage"
 function Template({ tipo }) {
 
     return (
@@ -53,19 +55,30 @@ function Template({ tipo }) {
             {tipo === 'avulsos' ?
                 <section id="basic-package" className="relative w-full min-h-screen overflow-hidden">
                     <BasicPackage />
-                </section> :
-                <section id="packages" className="relative w-full min-h-screen overflow-hidden">
-                    <IndividualPackage />
-                </section>
+                </section> : (
+                    <>
+                        <section id="packages" className="relative w-full min-h-screen overflow-hidden">
+                            <IndividualPackage />
+                        </section>
+                        <section className="relative w-full min-h-screen overflow-hidden">
+                            <ProPackage />
+                        </section>
+                        <section className="relative w-full h-full min-h-screen overflow-hidden">
+                            <PremiumPackage />
+                        </section>
+                    </>
+
+                )
+
             }
 
 
             <section id="payment-section" className="relative w-full min-h-screen overflow-hidden">
-                <Payment/>
+                <Payment />
             </section>
 
             <section id="more-service-section" className="relative w-full min-h-screen overflow-hidden">
-                <MoreService/>
+                <MoreService />
             </section>
 
 

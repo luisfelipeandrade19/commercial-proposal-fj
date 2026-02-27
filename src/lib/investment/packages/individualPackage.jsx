@@ -115,7 +115,7 @@ function IndividualPackage() {
                         </ul>
                     </aside>
 
-                    <aside id="left" className="flex flex-col justify-center">`
+                    <aside id="left" className="flex flex-col justify-center">
                         <SlideInBottom delay={0.6}>
                             <p className="font-kanit font-extralight  text-[25px] w-140 pl-8 pb-5">Nosso plano mais acessível. Ideal para marcas
                                 que estão começando agora e possuem pouco
