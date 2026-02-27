@@ -35,7 +35,7 @@ function BasicPackage() {
 
                 <div id='content' className='absolute'>
                     <SlideInLeft delay={0.2}>
-                        <div id='tittle' className='pl-45 pt-19 flex items-center'>
+                        <div id='tittle' className='pl-45 pt-35 flex items-center'>
                             <img className='h-5 w-5 ' src={triangulo} alt="Triangulo" />
                             <h1 className='relative  text-black font-kanit text-[80px] pl-5  font-semibold 
                             tracking-tight bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent'>
@@ -46,7 +46,7 @@ function BasicPackage() {
 
                     <div id='itens' className='columns-2 pl-15 pt-5'>
                         {pacotes.map((item, index) => (
-                            <div key={index} className='flex flex-col font-kanit font-extralight text-[30px] gap-2 mb-8 
+                            <div key={index} className='flex flex-col font-kanit font-extralight text-[38px] gap-2 mb-8 
                                 break-inside-avoid'>
                                 <div className="flex items-center gap-4 pl-35">
                                     <SlideInBottom delay={0.6}>
@@ -55,12 +55,12 @@ function BasicPackage() {
 
 
                                     <SlideInBottom delay={0.6}>
-                                        <h2 className='pr-16'>{item["Quantidade postagens"]} Postagens semanais</h2>
+                                        <h2 className='pr-16 '>{item["Quantidade postagens"]} Postagens semanais</h2>
                                     </SlideInBottom>
 
 
                                     <SlideInBottom delay={0.7}>
-                                        <div className='text-white font-kanit text-[20px] font-medium p-2 rounded-[10px] 
+                                        <div className='text-white font-kanit text-[27px] font-medium p-2 rounded-[10px] 
                                         bg-linear-to-t from-mid-blue to-dark-blue flex items-center justify-center'>
                                             <p>R$ {item["Preco"]},00</p>
                                         </div>
@@ -68,7 +68,7 @@ function BasicPackage() {
 
                                 </div>
                                 <SlideInBottom delay={0.8}>
-                                    <p className="pl-35  text-[20px] bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text 
+                                    <p className="pl-35 -mt-3 leading-[0.8] text-[20px] bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text 
                                     text-transparent ">( {item["Carrosseis"]}  Podendo ser carrossel ) </p>
                                 </SlideInBottom>
 
@@ -79,7 +79,7 @@ function BasicPackage() {
                     </div>
 
                     <SlideInLeft delay={0.9} >
-                        <p className='font-kanit font-light text-[26px] pl-45 pt-8'> <span className='text-mid-blue'>
+                        <p className='font-kanit font-light text-[26px] pl-45 pt-18'> <span className='text-mid-blue'>
                             Obs:</span> Caso queira mais posts em formato carrossel, me <br />
                             informe para que eu possa reformular o orçamento.</p>
                     </SlideInLeft>
