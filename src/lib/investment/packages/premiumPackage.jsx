@@ -72,8 +72,10 @@ function PremiumPackage() {
                             <SlideInLeft delay={0.6}>
                                 <li className="flex items-center gap-4">
                                     <img src={Correct} alt="correct" />
-                                    <p>Postagens <span className="bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent font-bold">08 Posts</span></p>
+                                    <p>Postagens <span className="bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent font-bold">20 Posts</span></p>
+
                                 </li>
+                                <p className="font-kanit font-extralight text-[20px] pl-10">( Sendo 14 normais e 6 carrosseis )</p>
                             </SlideInLeft>
 
 
@@ -87,17 +89,11 @@ function PremiumPackage() {
                         </ul>
 
 
-                        <ul id="incorrect" className="relative list-none space-y-1  pl-45 font-kanit font-extralight text-[38px] text-[#717171]">
-                            <SlideInLeft delay={0.8}>
-                                <li className="flex items-center gap-4">
-                                    <img src={Incorrect} alt="Incorrect" />
-                                    <p>Postagem em carrosseis</p>
-                                </li>
-                            </SlideInLeft>
+                        <ul id="incorrect" className="relative list-none space-y-1  pl-45 font-kanit font-extralight text-[38px] text-white">
 
                             <SlideInLeft delay={0.9}>
                                 <li className="flex items-center gap-4">
-                                    <img src={Incorrect} alt="Incorrect" />
+                                    <img src={Correct} alt="Incorrect" />
                                     <p>Agendamento das postagens</p>
                                 </li>
                             </SlideInLeft>
@@ -105,7 +101,7 @@ function PremiumPackage() {
 
                             <SlideInLeft delay={1}>
                                 <li className="flex items-center gap-4">
-                                    <img src={Incorrect} alt="Incorrect" />
+                                    <img src={Correct} alt="Incorrect" />
                                     <p>Relatório Mensal</p>
                                 </li>
                             </SlideInLeft>
