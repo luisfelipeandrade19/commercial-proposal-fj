@@ -8,7 +8,7 @@ import SlideInBottom from "../../../animations/slideInBottom";
 
 function ProPackage() {
     const [pacotes, setPacotes] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [ setLoading] = useState(true);
 
     useEffect(() => {
         const url = "https://opensheet.elk.sh/1_r21VCtPgOCeudcsY1PqKANn1Kgg_BiFx8hWXUVYu30/Pacotes!A3:Z";
@@ -34,19 +34,19 @@ function ProPackage() {
                 </div>
 
                 <SlideInLeft delay={0.2}>
-                    <div id='tittle' className='pl-45 pt-25 flex items-center'>
-                        <img className='h-5 w-5 ' src={triangulo} alt="Triangulo" />
-                        <h1 className='relative  text-black font-kanit text-[80px] pl-5  font-semibold 
+                    <div id='tittle' className='pl-28 xl:pl-45 pt-16 xl:pt-25 flex items-center'>
+                        <img className='h-4 w-4 xl:h-5 xl:w-5 ' src={triangulo} alt="Triangulo" />
+                        <h1 className='relative  text-black font-kanit text-[55px] xl:text-[80px] pl-4 xl:pl-5  font-semibold 
                             tracking-tight bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent'>
                             Pacotes Pro</h1>
                     </div>
                 </SlideInLeft>
 
                 <div id="items-content" className="relative flex " >
-                    <aside id="right" className="w-270">
-                        <ul id="correct" className="relative list-none pt-30 space-y-1 pl-45 font-kanit font-extralight text-[38px]">
+                    <aside id="right" className="w-180 xl:w-270">
+                        <ul id="correct" className="relative list-none pt-20 xl:pt-30 space-y-1 pl-28 xl:pl-45 font-kanit font-extralight text-[26px] xl:text-[38px]">
                             <SlideInLeft delay={0.3}>
-                                <li className="flex items-center gap-4">
+                                <li className="flex items-center gap-3 xl:gap-4">
                                     <img src={Correct} alt="correct" />
                                     <p>Criação de conteúdo acertivo</p>
                                 </li>
@@ -54,7 +54,7 @@ function ProPackage() {
 
 
                             <SlideInLeft delay={0.4}>
-                                <li className="flex items-center gap-4">
+                                <li className="flex items-center gap-3 xl:gap-4">
                                     <img src={Correct} alt="correct" />
                                     <p>Planejamento Estratégico</p>
                                 </li>
@@ -62,7 +62,7 @@ function ProPackage() {
 
 
                             <SlideInLeft delay={0.5}>
-                                <li className="flex items-center gap-4">
+                                <li className="flex items-center gap-3 xl:gap-4">
                                     <img src={Correct} alt="correct" />
                                     <p>Elaboração de legendas</p>
                                 </li>
@@ -70,17 +70,17 @@ function ProPackage() {
 
 
                             <SlideInLeft delay={0.6}>
-                                <li className="flex items-center gap-4">
+                                <li className="flex items-center gap-3 xl:gap-4">
                                     <img src={Correct} alt="correct" />
                                     <p>Postagens <span className="bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent font-bold">16 Posts</span></p>
 
                                 </li>
-                                <p className="font-kanit font-extralight text-[20px] pl-10">( Sendo 12 normais e 4 carrosseis )</p>
+                                <p className="font-kanit font-extralight text-[15px] xl:text-[20px] pl-7 xl:pl-10">( Sendo 12 normais e 4 carrosseis )</p>
                             </SlideInLeft>
 
 
                             <SlideInLeft delay={0.7}>
-                                <li className="flex items-center gap-4">
+                                <li className="flex items-center gap-3 xl:gap-4">
                                     <img src={Correct} alt="correct" />
                                     <p>Configuração de destaque</p>
                                 </li>
@@ -89,11 +89,11 @@ function ProPackage() {
                         </ul>
 
 
-                        <ul id="incorrect" className="relative list-none space-y-1  pl-45 font-kanit font-extralight text-[38px] text-[#717171]">
+                        <ul id="incorrect" className="relative list-none space-y-1  pl-28 xl:pl-45 font-kanit font-extralight text-[26px] xl:text-[38px] text-[#717171]">
 
 
                             <SlideInLeft delay={0.9}>
-                                <li className="flex items-center gap-4">
+                                <li className="flex items-center gap-3 xl:gap-4">
                                     <img src={Incorrect} alt="Incorrect" />
                                     <p>Agendamento das postagens</p>
                                 </li>
@@ -101,7 +101,7 @@ function ProPackage() {
 
 
                             <SlideInLeft delay={1}>
-                                <li className="flex items-center gap-4">
+                                <li className="flex items-center gap-3 xl:gap-4">
                                     <img src={Incorrect} alt="Incorrect" />
                                     <p>Relatório Mensal</p>
                                 </li>
@@ -112,20 +112,20 @@ function ProPackage() {
 
                     <aside id="left" className="flex flex-col justify-center">
                         <SlideInBottom delay={0.6}>
-                            <p className="font-kanit font-extralight  text-[25px] w-140 pl-8 pb-5">Nosso plano mais acessível. Ideal para marcas
+                            <p className="font-kanit font-extralight  text-[20px] xl:text-[25px] w-100 xl:w-140 pl-5 xl:pl-8 pb-3 xl:pb-5">Nosso plano mais acessível. Ideal para marcas
                                 que estão começando agora e possuem pouco
                                 recursos para investir nas redes sociais.</p>
                         </SlideInBottom>
 
                         <SlideInBottom delay={1}>
-                            <div id="fora" className="bg-[#58BAFF47] opacity-[50] rounded-[40px]">
-                                <div className="w-150 h-70 text-center p-[2.5%]">
-                                    <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[30px] flex flex-col items-center justify-center'>
-                                        <h3 className='text-white font-kanit font-regular text-[28px] tracking-tight '>O plano custaria <span className="line-through">R$ {pacotes[1]?.Custaria || "0"},00</span></h3>
-                                        <div className="flex flex-row h-40 font-kanit text-white    ">
-                                            <h1 className="self-start text-[50px] font-extralight">R$</h1>
-                                            <h1 className="self-center text-[180px] font-medium">{pacotes[1]?.Preco || "0"}</h1>
-                                            <h1 className="self-end text-[50px] font-extralight">,00</h1>
+                            <div id="fora" className="bg-[#58BAFF47] opacity-[50] rounded-[30px] xl:rounded-[40px]">
+                                <div className="w-110 h-55 xl:w-150 xl:h-70 text-center p-[2.5%]">
+                                    <div id="service-1 " className='bg-linear-to-t from-mid-blue to-dark-blue w-full h-full rounded-[22px] xl:rounded-[30px] flex flex-col items-center justify-center'>
+                                        <h3 className='text-white font-kanit font-regular text-[22px] xl:text-[28px] tracking-tight '>O plano custaria <span className="line-through">R$ {pacotes[1]?.Custaria || "0"},00</span></h3>
+                                        <div className="flex flex-row h-28 xl:h-40 font-kanit text-white    ">
+                                            <h1 className="self-start text-[35px] xl:text-[50px] font-extralight">R$</h1>
+                                            <h1 className="self-center text-[120px] xl:text-[180px] font-medium">{pacotes[1]?.Preco || "0"}</h1>
+                                            <h1 className="self-end text-[35px] xl:text-[50px] font-extralight">,00</h1>
                                         </div>
                                     </div>
                                 </div>

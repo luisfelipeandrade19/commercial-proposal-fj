@@ -14,9 +14,9 @@ function Payment() {
                 <img src={fundoGrade} alt="Fundo Grade" className='mix-blend-exclusion opacity-45' />
             </div>
             <SlideInLeft delay={0.2}>
-                <div id='tittle' className='pl-45 pt-28 flex items-center'>
-                    <img className='h-5 w-5 ' src={triangulo} alt="Triangulo" />
-                    <h1 className='relative  text-black font-kanit text-[80px] pl-5 font-semibold 
+                <div id='tittle' className='pl-28 xl:pl-45 pt-18 xl:pt-28 flex items-center'>
+                    <img className='h-4 w-4 xl:h-5 xl:w-5 ' src={triangulo} alt="Triangulo" />
+                    <h1 className='relative  text-black font-kanit text-[55px] xl:text-[80px] pl-4 xl:pl-5 font-semibold 
                                 tracking-tight bg-linear-to-t from-mid-blue to-dark-blue bg-clip-text text-transparent'>
                         Pagamento</h1>
                 </div>
@@ -24,37 +24,37 @@ function Payment() {
 
             <div id="content" className="relative">
                 <SlideInRight delay={0.3}>
-                    <p className="text-black  text-[28px] font-medium pl-45 pt-15   ">Feito através de:</p>
+                    <p className="text-black  text-[20px] xl:text-[28px] font-medium pl-28 xl:pl-45 pt-10 xl:pt-15   ">Feito através de:</p>
                 </SlideInRight>
                 <SlideInRight delay={0.4}>
-                    <div id="top" className="flex items-center pl-45 gap-5 pt-5" >
-                        <img src={vector} alt="Icone de correto" className='w-3 h-3' />
-                        <h2 className="font-extralight text-[28px]">Transferência Pix</h2>
+                    <div id="top" className="flex items-center pl-28 xl:pl-45 gap-4 xl:gap-5 pt-3 xl:pt-5" >
+                        <img src={vector} alt="Icone de correto" className='w-2.5 h-2.5 xl:w-3 xl:h-3' />
+                        <h2 className="font-extralight text-[20px] xl:text-[28px]">Transferência Pix</h2>
                     </div>
                 </SlideInRight>
                 <SlideInRight delay={0.4}>
-                    <div id="bottom" className="flex items-center pl-45 gap-5 pt-2" >
-                        <img src={vector} alt="Icone de correto" className='w-3 h-3' />
-                        <h2 className="font-extralight text-[28px]">Boleto Bancário</h2>
+                    <div id="bottom" className="flex items-center pl-28 xl:pl-45 gap-4 xl:gap-5 pt-1.5 xl:pt-2" >
+                        <img src={vector} alt="Icone de correto" className='w-2.5 h-2.5 xl:w-3 xl:h-3' />
+                        <h2 className="font-extralight text-[20px] xl:text-[28px]">Boleto Bancário</h2>
                     </div>
                 </SlideInRight>
 
                 <SlideInLeft delay={0.5}>
-                    <p className="text-black  text-[28px] font-medium pl-45 pt-7">Formato:</p>
+                    <p className="text-black  text-[20px] xl:text-[28px] font-medium pl-28 xl:pl-45 pt-5 xl:pt-7">Formato:</p>
                 </SlideInLeft>
 
                 <SlideInLeft delay={0.6}>
-                    <div id="top" className="flex items-start pl-45 gap-4" >
-                        <img src={vector} alt="Icone de correto" className='w-3 h-3 mt-4' />
-                        <h2 className="font-extralight text-[28px]">O pagamento é feito 50% antes do início do <br />
+                    <div id="top" className="flex items-start pl-28 xl:pl-45 gap-3 xl:gap-4" >
+                        <img src={vector} alt="Icone de correto" className='w-2.5 h-2.5 xl:w-3 xl:h-3 mt-3 xl:mt-4' />
+                        <h2 className="font-extralight text-[20px] xl:text-[28px]">O pagamento é feito 50% antes do início do <br />
                             projeto e 50% após a entrega do mesmo </h2>
                     </div>
-                    <p className="text-black  text-[27px] font-thin pl-45">( Apenas no primeiro mês )</p>
+                    <p className="text-black  text-[19px] xl:text-[27px] font-thin pl-28 xl:pl-45">( Apenas no primeiro mês )</p>
                 </SlideInLeft>
 
 
                 <SlideInBottom delay={0.7}>
-                    <p className='font-kanit font-light text-[28px] pl-45 pt-30'> <span className='text-mid-blue'>
+                    <p className='font-kanit font-light text-[20px] xl:text-[28px] pl-28 xl:pl-45 pt-20 xl:pt-30'> <span className='text-mid-blue'>
                         Obs:</span> Caso queira mais posts em formato carrossel, me <br /> informe para que eu possa
                         reformular o orçamento.</p>
                 </SlideInBottom>
